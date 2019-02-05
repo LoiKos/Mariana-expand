@@ -10,6 +10,8 @@ Package folder is available through sublime app menu
 
 ## Compatible with Sublime 3
 
+Recommanded UI theme to use with : https://github.com/kkga/spacegray
+
 ## Colors
 
 *coming later*
