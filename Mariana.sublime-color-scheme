@@ -1,0 +1,192 @@
+{   
+    "author": "LoiKos", 
+    "variables":
+    {	
+        "dark":"#1b2b34",
+        "black": "hsl(0, 0%, 0%)",
+        "yellow":"#fac863",
+        "back_yellow":"#fac86319",
+        "darkpink":"rgb(239, 59, 125)",
+        "purple":"#ab9df2",
+        "red":"#ec5f67",
+        "grey":"#4f5b66",
+        "green":"#99c794",
+        "blue":"#6699cc",
+        "blue-light":"#78dce8",
+        "pinky":"#ff6188",
+        "ligth-grey":"#d8dee9",
+    },
+    "globals": 
+    {
+     "foreground": "#cdd3de",
+     "background": "var(dark)",
+     "caret": "var(yellow)",
+     "line_highlight": "var(yellow)",
+     "selection": "var(back_yellow)",
+     "selection_border": "var(yellow)",
+     "inactive_selection": "color(var(yellow) alpha(0.25))",
+     "misspelling": "var(red)",
+     "shadow":"color(hsl(0, 0%, 0%) alpha(0.25))",
+     "highlight": "var(yellow)",
+     "find_highlight": "var(yellow)",
+     "find_highlight_foreground": "var(dark)",
+     "brackets_options": "italic",
+     "brackets_foreground": "var(yellow)",
+     "bracket_contents_options": "underline",
+     "bracket_contents_foreground": "var(yellow)",   
+    },
+    "rules": [
+        {
+            "name":"Javascript Build-In",
+            "scope":"support.constant.builtin.js, support.class.builtin.js",
+            "foreground": "var(yellow)",
+            "font_style":"italic"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword.control.import-export",
+            "foreground": "var(blue5)",
+             "font_style": "none"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword.control",
+            "foreground": "var(darkpink)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "var(purple)"
+        },
+              {
+            "name": "Operators",
+            "scope": "keyword.operator.js",
+            "font_style":"italic"
+        },
+        {
+            "name":"Operators",
+            "scope":"keyword.operator.word",
+            "font_style":"italic",
+            "foreground": "var(darkpink)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.separator, punctuation.terminator, punctuation.section",
+            "foreground": "var(ligth-grey)"
+        },
+         {
+            "name": "JavaScript Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
+            "foreground": "var(blue)"
+        },
+          {
+            "name": "Storage",
+            "scope": "storage, storage.type.class",
+            "foreground": "var(darkpink)",
+             "font_style": "italic"
+        },                  {
+            "name": "Storage",
+            "scope": "storage.type.function.arrow",
+            "foreground": "var(purple)",
+             "font_style": "italic"
+        },
+        {     "name": "Constant language",  
+              "scope":"constant.language.null, constant.language.undefined",
+              "foreground":"var(purple)",
+              "font_style":"italic"
+        },
+         {
+            "name": "Entity name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue)"
+        },
+         {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(yellow)"
+        },{
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+         {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(blue-light)"
+        },
+        {
+            "name": "Stockage",
+            "scope": "storage.type.js",
+            "foreground": "var(darkpink)",
+            "font_style": "none"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.language.this.js",
+            "foreground": "var(darkpink)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(pinky)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style":"none"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type",
+            "foreground": "var(yellow)",
+            "font_style":"none"
+        },
+        {
+            "name": "JavaScript unquoted object literal key",
+            "scope": "meta.object-literal.key, meta.object-literal.key string - punctuation, meta.mapping.key string - punctuation",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "CSS Properties",
+            "scope": "support.type.property-name",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "constant.numeric.line-number.match",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(red)"
+        }
+    ]
+}
