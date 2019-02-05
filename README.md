@@ -12,5 +12,7 @@ Package folder is available through sublime app menu
 
 ## Colors
 
+*coming later*
+
 ## Screenshot
 ![Screenshot of Mariana expand](https://github.com/LoiKos/Mariana-expand/blob/master/Screenshot.png)
