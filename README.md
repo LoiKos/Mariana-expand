@@ -14,7 +14,7 @@ Recommanded UI theme to use with : https://github.com/kkga/spacegray
 
 ## Colors
 
-*coming later*
+![color palette](https://github.com/LoiKos/Mariana-expand/blob/master/Component%202.png)
 
 ## Screenshot
 ![Screenshot of Mariana expand](https://github.com/LoiKos/Mariana-expand/blob/master/Screenshot.png)
